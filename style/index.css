@@ -64,6 +64,17 @@ button:hover {
   color: #562e0e;
 }
 
+.bars {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 35%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
 /* Hero Section */
 .hero {
   display: flex;
@@ -351,9 +362,11 @@ select.form-control:focus {
 
   /* Navbar Section */
   .navbar-list {
-    flex-wrap: wrap;
-    gap: 16px;
-    padding: 10px 0;
+    display: none;
+  }
+
+  .bars {
+    display: inline-block;
   }
 
   /* Hero Section */
